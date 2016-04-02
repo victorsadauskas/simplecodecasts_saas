@@ -8,7 +8,7 @@ $(document).ready(function() {
         var ccNum = $('#card_number').val(),
             cvcNum = $('#card_code').val(),
             expMonth = $('#card_month').val(),
-            expTear = $('#card_year').val();
+            expYear = $('#card_year').val();
         
         if (!error) {
             //get the stripe token:
